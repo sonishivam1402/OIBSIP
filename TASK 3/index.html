@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Temperature Converter Website</h1>
+<form>
+	<!-- <label for="temperature">Enter Degree :</label> -->
+	<input type="text" id="temperature" placeholder="Enter Degree" required><br>
+
+	<label style="position: absolute; top: 35%; margin-left: 20px; font-size: 20px;">Type:</label><br>
+	<div class="radio">
+	<input type="radio" id="celsius" name="type" value="Celsius">
+	<label for="celsius" style="font-size: 18px;">Celsius</label>
+	<input type="radio" id="fahrenheit" name="type" value="Fahrenheit">
+	<label for="fahrenheit" style="font-size: 18px;">Fahrenheit</label>
+	<input type="radio" id="kelvin" name="type" value="Kelvin">
+	<label for="kelvin" style="font-size: 18px;">Kelvin</label>
+	</div>
+	<input type="submit" id="convert" value="Convert">
+	<textarea id="ans"></textarea>
+</form>
+</body>
+</html>

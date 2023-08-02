@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+}
+
+h1{
+	position: absolute;
+	top: 12%;
+	left: 37%;
+
+}
+
+form{
+	width: 500px;
+	height: 300px;
+	border: 2px solid white;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+}
+
+#temperature{
+	position: absolute;
+	left: 30%;
+	top: 8%;
+	width: 10rem;
+	height: 2rem;
+	background: white;
+	color: black;
+	padding: 5px;
+	margin: 10px;
+	font-size: 16px;
+}
+
+.radio{
+	position: absolute;
+	left: 18%;
+	top: 36%;
+	display: flex;
+	gap: 1rem;
+}
+
+#convert{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	width: 100px;
+	height: 40px;
+	background: white;
+	color: black;
+	border-radius: 13px;
+}
+
+#convert:hover{
+	cursor: pointer;
+	color: darkred;
+}
+
+textarea{
+	position: absolute;
+	top: 70%;
+	left: 20%;
+	font-size: 24px;
+	display: none;
+}
