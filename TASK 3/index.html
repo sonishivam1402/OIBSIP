@@ -5,24 +5,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Temperature Converter</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="function.js"></script>
 </head>
 <body>
 <h1>Temperature Converter Website</h1>
-<form>
-	<!-- <label for="temperature">Enter Degree :</label> -->
-	<input type="text" id="temperature" placeholder="Enter Degree" required><br>
+<div class="container">
+	<label for="temperature" style="font-size: 18px">&nbsp&nbsp Enter Degree :</label>
+	<input type="text" id="temperature" required><br><br>
 
-	<label style="position: absolute; top: 35%; margin-left: 20px; font-size: 20px;">Type:</label><br>
-	<div class="radio">
+	<label style="margin-left: 20px; font-size: 20px;">Degree in:</label><br><br>
+	<div class="r-btn">
 	<input type="radio" id="celsius" name="type" value="Celsius">
-	<label for="celsius" style="font-size: 18px;">Celsius</label>
+	<label for="celsius" style="font-size: 18px;">Celsius</label><br>
 	<input type="radio" id="fahrenheit" name="type" value="Fahrenheit">
-	<label for="fahrenheit" style="font-size: 18px;">Fahrenheit</label>
-	<input type="radio" id="kelvin" name="type" value="Kelvin">
-	<label for="kelvin" style="font-size: 18px;">Kelvin</label>
+	<label for="fahrenheit" style="font-size: 18px;">Fahrenheit</label><br>
 	</div>
-	<input type="submit" id="convert" value="Convert">
-	<textarea id="ans"></textarea>
-</form>
+	<!-- <input type="radio" id="kelvin" name="type" value="Kelvin">
+	<label for="kelvin" style="font-size: 18px;">Kelvin</label> -->
+
+	<button id="submit" onclick="myfun()">Submit</button>
+<p>The Result is : 
+<span id = "result" style="color: whitesmoke;"></span>
+</div>
 </body>
 </html>

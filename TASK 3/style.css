@@ -12,7 +12,7 @@ h1{
 
 }
 
-form{
+.container{
 	width: 500px;
 	height: 300px;
 	border: 2px solid white;
@@ -22,9 +22,9 @@ form{
 }
 
 #temperature{
-	position: absolute;
+	/*position: absolute;
 	left: 30%;
-	top: 8%;
+	top: 8%;*/
 	width: 10rem;
 	height: 2rem;
 	background: white;
@@ -34,15 +34,13 @@ form{
 	font-size: 16px;
 }
 
-.radio{
+.r-btn{
 	position: absolute;
-	left: 18%;
-	top: 36%;
-	display: flex;
-	gap: 1rem;
+	left: 24%;
+	top: 28%;
 }
 
-#convert{
+#submit{
 	position: absolute;
 	top: 50%;
 	left: 40%;
@@ -53,15 +51,14 @@ form{
 	border-radius: 13px;
 }
 
-#convert:hover{
+#submit:hover{
 	cursor: pointer;
 	color: darkred;
 }
 
-textarea{
+p{
 	position: absolute;
-	top: 70%;
-	left: 20%;
-	font-size: 24px;
-	display: none;
+	top: 80%;
+	left: 5%;
+	font-size: 20px;
 }
