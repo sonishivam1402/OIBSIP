@@ -1,0 +1,104 @@
+*{
+	margin:  0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pizza.jpg);
+	height: 99vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff transparent;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	position: absolute;
+	float: left;
+	top: -5%;
+	width: 200px;
+	height: auto;
+}
+
+.main{
+	margin: 2px;
+}
+
+.title{
+	position: absolute;
+	top: 40%;
+	left: 18%;
+	transform: translate(-50%,-50%);
+}
+
+.title h2{
+	color: #fff;
+	font-size: 50px;
+	font-family: gabriola;
+}
+
+.title h3{
+	color: #fff;
+	font-size: 30px;
+	font-family: gabriola;
+}
+
+.button{
+	position: absolute;
+	top: 70%;
+	left: 13%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.s-media{
+	position: absolute;
+	bottom: 10%;
+	left: 6%;
+	color: ghostwhite;
+	font-size: 35px;
+
+}
+
+.s-media i {
+	cursor: pointer;
+	padding: 10px;
+}

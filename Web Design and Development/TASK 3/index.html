@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="function.js"></script>
+</head>
+<body>
+<h1>Temperature Converter Website</h1>
+<div class="container">
+	<label for="temperature" style="font-size: 18px">&nbsp&nbsp Enter Degree :</label>
+	<input type="text" id="temperature" required><br><br>
+
+	<label style="margin-left: 20px; font-size: 20px;">Degree in:</label><br><br>
+	<div class="r-btn">
+	<input type="radio" id="celsius" name="type" value="Celsius">
+	<label for="celsius" style="font-size: 18px;">Celsius</label><br>
+	<input type="radio" id="fahrenheit" name="type" value="Fahrenheit">
+	<label for="fahrenheit" style="font-size: 18px;">Fahrenheit</label><br>
+	<input type="radio" id="kelvin" name="type" value="Kelvin">
+	<label for="kelvin" style="font-size: 18px;">Kelvin</label><br>
+	</div>
+
+	<label style="margin-left: 16rem; position: absolute; top: 83px; font-size: 20px;">To:</label><br><br>
+	<div class="tor-btn">
+	<input type="radio" id="celsiuss" name="types" value="Celsiuss">
+	<label for="celsiuss" style="font-size: 18px;">Celsius</label><br>
+	<input type="radio" id="fahrenheits" name="types" value="Fahrenheits">
+	<label for="fahrenheits" style="font-size: 18px;">Fahrenheit</label><br>
+	<input type="radio" id="kelvins" name="types" value="Kelvins">
+	<label for="kelvins" style="font-size: 18px;">Kelvin</label><br>
+	</div>
+
+	<button id="submit" onclick="myfun()">Submit</button>
+<p>The Result is : 
+<span id = "result" style="color: whitesmoke;"></span>
+</div>
+</body>
+</html>
